@@ -20,5 +20,6 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('equijoin/',equijoin,name='equijoin'),
-    path('selfjoins/',selfjoins,name='selfjoins')
+    path('selfjoins/',selfjoins,name='selfjoins'),
+    path('emp_mgr_sal/',emp_mgr_sal,name='emp_mgr_sal'),
 ]
