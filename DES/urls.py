@@ -22,4 +22,6 @@ urlpatterns = [
     path('equijoin/',equijoin,name='equijoin'),
     path('selfjoins/',selfjoins,name='selfjoins'),
     path('emp_mgr_sal/',emp_mgr_sal,name='emp_mgr_sal'),
+    path('emp_salgrade/',emp_salgrade,name='emp_salgrade'),
+
 ]
